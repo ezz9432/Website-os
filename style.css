@@ -43,7 +43,7 @@
 }
 .logo span , .logo span i{
     font-size: 25px;
-    color:#8d0da0 ;
+    color:#0d8aa7 ;
 }
 
 .login-text h1{
@@ -53,6 +53,7 @@
     font-size: 15px;
     color: #000000B2;
 }
+
 form{
     align-items: flex-start !important;
     width: 100%;
@@ -88,4 +89,33 @@ input{
 }
 .input i{
     color:rgba(0, 0, 0, 0.4);
+}
+
+.check span{
+    color:#000000B2;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.btn{
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 10px 15px;
+    background: linear-gradient(122.33deg, #68bed1 30.62%, #1E94E9 100%);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    transition: all 0.3s linear;
+}
+
+.btn:hover{
+    transform: translateY(-2px);
+}
+.extra-line{
+    font-size: 15px;
+    font-weight: 600;
+}
+.extra-line a{
+    color: #0095B6;
 }
