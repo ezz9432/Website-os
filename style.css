@@ -53,3 +53,39 @@
     font-size: 15px;
     color: #000000B2;
 }
+form{
+    align-items: flex-start !important;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.input-box{
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.label{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 3px;
+}
+
+.input{
+    background-color: #F6F6F6;
+    padding: 0px 5px;
+    border: 2px solid rgba(216, 216, 216, 1);
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: flex-start;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 10px 5px;
+    background-color: #F6F6F6;
+    flex: 1;
+}
+.input i{
+    color:rgba(0, 0, 0, 0.4);
+}
